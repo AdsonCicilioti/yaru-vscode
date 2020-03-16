@@ -1,0 +1,26 @@
+{
+    "name": "yaru-vscode",
+    "displayName": "Yaru VS Code Theme",
+    "description": "Yaru VS Code Theme based on Official Ubuntu Sistem Colors.",
+    "version": "0.0.1",
+    "publisher": "AdsonCicilioti",
+    "license": "Apache-2.0",
+    "author": "Adson Cicilioti",
+    "icon": "logo.png",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes",
+        "Other"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Yaro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Yaro-color-theme.json"
+            }
+        ]
+    }
+}
