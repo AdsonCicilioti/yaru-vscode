@@ -6,7 +6,20 @@
     "publisher": "AdsonCicilioti",
     "license": "Apache-2.0",
     "author": "Adson Cicilioti",
-    "icon": "logo.png",
+    "icon": "https://raw.githubusercontent.com/AdsonCicilioti/yaru-vscode/master/logo.png",
+    "homepage": "https://github.com/AdsonCicilioti/yaru-vscode",
+    "bugs": {
+        "url": "https://github.com/AdsonCicilioti/yaru-vscode/issues",
+        "email": "adson.cicilioti@live.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AdsonCicilioti/yaru-vscode.git"
+    },
+    "galleryBanner": {
+        "color": "#E95420",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.43.0"
     },
