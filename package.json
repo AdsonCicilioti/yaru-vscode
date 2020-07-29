@@ -6,7 +6,7 @@
     "publisher": "AdsonCicilioti",
     "license": "Apache-2.0",
     "author": "Adson Cicilioti",
-    "icon": "https://raw.githubusercontent.com/AdsonCicilioti/yaru-vscode/master/logo.png",
+    "icon": "logo.png",
     "homepage": "https://github.com/AdsonCicilioti/yaru-vscode",
     "bugs": {
         "url": "https://github.com/AdsonCicilioti/yaru-vscode/issues",
