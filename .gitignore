@@ -1,3 +1,5 @@
+*.vsix
+
 # Logs
 logs
 *.log

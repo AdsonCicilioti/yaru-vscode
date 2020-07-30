@@ -6,6 +6,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.4] - 2020-07-30
+
+### Added
+
+- New dark theme alternative
+- Improvment on minimap hamdler scroll and highlights.
+
 ## [0.0.3] - 2020-07-30
 
 ### Added
