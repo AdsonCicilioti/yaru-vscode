@@ -1,5 +1,5 @@
 {
-  "name": "Yaro",
+  "name": "Yaro Dark Alternative",
   "type": "dark",
   // "verde": "#0c6d1a",
   // "cyano": "19b6ee",
@@ -29,24 +29,25 @@
 
     // ACTIVITYBAR
     "activityBar.background": "#2C2C2C",
-    "activityBar.foreground": "#c2c2c2",
+    "activityBar.foreground": "#ff6a33",
     "activityBar.inactiveForeground": "#c2c2c2c2",
-    "activityBar.activeBorder": "#E95420",
-    "activityBar.activeBackground": "#E95420",
+    "activityBar.activeBorder": "#ff6a33",
+    "activityBar.activeBackground": "#2c2c2c",
     "activityBarBadge.background": "#E95420",
-    "activityBarBadge.foreground": "#fff",
+    "activityBarBadge.foreground": "#ffffff",
 
     // PROGRESSBAR
     "progressBar.background": "#773f72",
 
     // STATUSBAR
-    "statusBar.foreground": "#fff",
-    "statusBar.background": "#E95420",
-    "statusBarItem.remoteBackground": "#773F72",
+    "statusBar.foreground": "#a4a4a4",
+    "statusBar.background": "#222",
+    "statusBarItem.remoteBackground": "#E95420",
+    "statusBar.border": "#E95420",
 
     // SIDEBAR
     "sideBarTitle.foreground": "#c2c2c2",
-    "sideBar.background": "#222",
+    "sideBar.background": "#1e1e1e",
     "sideBar.foreground": "#c2c2c2",
     "sideBarSectionHeader.background": "#222",
     "sideBarSectionHeader.foreground": "#c2c2c2",
@@ -54,11 +55,12 @@
     "sideBarSectionHeader.border": "#1a1a1a",
 
     // INPUT AND ELEMENTS FORM
-    "input.background": "#343434",
+    "input.background": "#2c2c2c",
     "input.placeholderForeground": "#c2c2c2aa",
     "focusBorder": "#ef8661b3",
     "button.background": "#E95420",
     "dropdown.border": "#ef8661b3",
+    "dropdown.background": "#2c2c2c",
 
     // SCROLLBAR
     "scrollbarSlider.activeBackground": "#373737",
@@ -67,7 +69,7 @@
     "scrollbar.shadow": "#1a1a1a",
 
     // PANEL (Terminal, Output, Debug, etc)
-    "panel.background": "#222",
+    "panel.background": "#1e1e1e",
     "panel.border": "#1a1a1a",
     "panelTitle.activeBorder": "#E95420",
     "panelInput.border": "#ef8661b3",
@@ -105,7 +107,14 @@
     "tab.activeBackground": "#222",
     "tab.activeBorderTop": "#E95420",
     "tab.inactiveBackground": "#2c2c2c",
-    "tab.inactiveForeground": "#c2c2c2"
+    "tab.inactiveForeground": "#c2c2c2",
+
+    // MINIMAP
+    "minimap.findMatchHighlight": "#e96a20cc",
+    "minimapSlider.background": "#c2c2c254",
+    "minimapSlider.hoverBackground": "#c2c2c242",
+    "minimapSlider.activeBackground": "#c2c2c254",
+    "minimap.selectionHighlight": "#19b5ee98"
   },
   "tokenColors": [
     {

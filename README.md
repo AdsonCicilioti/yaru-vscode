@@ -4,6 +4,13 @@
 
 ### Screenshots
 
+#### New Dark Theme Alternative
+
+`Yaru Dark Alternative`
+![taru-vscode-theme-html](images/new-theme-dark-alt.png)
+
+#### Yaru Dark
+
 `html`
 ![taru-vscode-theme-html](images/html.png)
 

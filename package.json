@@ -30,9 +30,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Yaro",
+                "label": "Yaro Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Yaro-color-theme.json"
+                "path": "./themes/Yaro-Dark-color-theme.json"
+            },
+            {
+                "label": "Yaro Dark Alternative",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Yaro-Dark-Alt-color-theme.json"
             }
         ]
     }
