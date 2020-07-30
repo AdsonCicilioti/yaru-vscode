@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.5] - 2020-07-30
+
+### Change
+
+- Decrease minimum version to v1.34
+
 ## [0.0.4] - 2020-07-30
 
 ### Added
