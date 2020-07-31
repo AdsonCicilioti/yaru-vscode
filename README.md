@@ -2,9 +2,18 @@
 
 ## Totally inspired and based on Yaru colors from Ubuntu System.
 
-### Screenshots
+---
 
-#### New Dark Theme Alternative
+### ROADMAP:
+
+- [ ] Better syntax colors
+- [ ] Light Themes
+
+---
+
+### PREVIEWS:
+
+#### **"New Dark Theme Alternative"**
 
 `Yaru Dark Alternative`
 ![taru-vscode-theme-html](images/new-theme-dark-alt.png)
