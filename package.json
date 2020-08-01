@@ -1,44 +1,62 @@
 {
-    "name": "yaru-vscode",
-    "displayName": "Yaru VS Code Theme",
-    "description": "Yaru VS Code Theme based on Official Ubuntu System Colors.",
-    "version": "0.0.5",
-    "publisher": "AdsonCicilioti",
-    "license": "Apache-2.0",
-    "author": "Adson Cicilioti",
-    "icon": "images/logo.png",
-    "homepage": "https://github.com/AdsonCicilioti/yaru-vscode",
-    "bugs": {
-        "url": "https://github.com/AdsonCicilioti/yaru-vscode/issues",
-        "email": "adson.cicilioti@live.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/AdsonCicilioti/yaru-vscode.git"
-    },
-    "galleryBanner": {
-        "color": "#E95420",
-        "theme": "dark"
-    },
-    "engines": {
-        "vscode": "^1.34.0"
-    },
-    "categories": [
-        "Themes",
-        "Other"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Yaro Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Yaro-Dark-color-theme.json"
-            },
-            {
-                "label": "Yaro Dark Alternative",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Yaro-Dark-Alt-color-theme.json"
-            }
-        ]
-    }
+	"name": "yaru-vscode",
+	"displayName": "Yaru VS Code Theme",
+	"description": "Yaru VS Code Theme based on Official Ubuntu System Colors.",
+	"version": "0.1.0",
+	"publisher": "AdsonCicilioti",
+	"license": "MIT",
+	"author": "Adson Cicilioti",
+	"homepage": "https://github.com/AdsonCicilioti/yaru-vscode",
+	"scripts": {
+		"dev": "nodemon -w src -e yml ./scripts/build.js",
+		"build": "node ./scripts/build.js",
+		"lint": "node ./scripts/lint.js",
+		"package": "vsce package -o ./bin/yaru.vsix",
+		"vscode:prepublish": "npm run build",
+		"vsce-publish": "vsce publish"
+	},
+	"maintainers": [
+		"Adson Cicilioti <adson.cicilioti@live.com>"
+	],
+	"contributors": [],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AdsonCicilioti/yaru-vscode.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AdsonCicilioti/yaru-vscode/issues"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"yaru",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#E95420",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.34.0"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Yaru dark",
+				"uiTheme": "vs-dark",
+				"path": "./theme/yaru.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"js-yaml": "^3.14.0",
+		"prettier": "^2.0.5",
+		"tinycolor2": "^1.4.1",
+		"vsce": "^1.74.0",
+		"nodemon": "^2.0.4"
+	}
 }

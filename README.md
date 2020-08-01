@@ -6,33 +6,19 @@
 
 ### ROADMAP:
 
-- [ ] Better syntax colors
+- [x] Better syntax colors
 - [ ] Light Themes
 
 ---
 
 ### PREVIEWS:
 
-#### **"New Dark Theme Alternative"**
-
-`Yaru Dark Alternative`
-![taru-vscode-theme-html](images/new-theme-dark-alt.png)
-
 #### Yaru Dark
 
-`html`
-![taru-vscode-theme-html](images/html.png)
+![taru-vscode-theme-html](images/scrsht.png)
 
-`css`
-![taru-vscode-theme-css](images/css.png)
+#### Yaru Light [ SOON ]
 
-`php`
-![taru-vscode-theme-php](images/php.png)
-
-`js`
-![taru-vscode-theme-js](images/js.png)
-
-`python`
-![taru-vscode-theme-python](images/python.png)
+---
 
 **Enjoy!**

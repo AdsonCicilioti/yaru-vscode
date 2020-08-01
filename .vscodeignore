@@ -1,4 +1,11 @@
+.github/**
 .vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+bin/**
+node_modules/**
+scripts/**
+src/**
+tests/**
+.editorconfig
+.prettierrc.toml
+generate.js
+jsconfig.json

@@ -6,6 +6,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.0] - 2020-08-01
+
+### Change
+
+- Refactor code | Dracula reference
+
+### Added
+
+- Complete Sytax for must popular languages | Dracula based
+
 ## [0.0.5] - 2020-07-30
 
 ### Change
