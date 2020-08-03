@@ -317,9 +317,9 @@ colors:
   panelTitle.inactiveForeground: *TXT_FADED # Title color for the inactive panel
 
   # Status Bar Colors
-  statusBar.background: *YARU_PRP # Standard Status Bar background color
+  statusBar.background: *YARU_ORG # Standard Status Bar background color
   statusBar.foreground: *FG # Status Bar foreground color
-  statusBar.debuggingBackground: *YARU_ORG # Status Bar background color when a program is being debugged
+  statusBar.debuggingBackground: # Status Bar background color when a program is being debugged
   statusBar.debuggingForeground: # Status Bar foreground color when a program is being debugged
   statusBar.noFolderBackground: *BGDarker # Status Bar foreground color when no folder is opened
   statusBar.noFolderForeground: *FG # Status Bar background color when no folder is opened
