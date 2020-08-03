@@ -6,6 +6,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.2] - 2020-08-03
+
+### Change
+
+- StatusBar Bg Color Back to Orange
+- Update screenshot preview
+
 ## [0.1.0] - 2020-08-01
 
 ### Change
