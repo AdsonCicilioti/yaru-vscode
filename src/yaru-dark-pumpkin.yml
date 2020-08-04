@@ -1,7 +1,7 @@
-name: Yaru
-author: Zeno Rocha
+name: Yaru Dark Pumpkin
+author: Adson CIcilioti
 maintainers:
-  - Derek P Sifford <dereksifford@gmail.com>
+  - Adson Cicilioti <adson.ciciliotid@live.com>
 semanticClass: theme.yaru
 semanticHighlighting: true
 yaru:
@@ -92,7 +92,7 @@ colors:
   # Button Control
   button.background: *UI_BTN # Button background color
   button.foreground: *FG # Button foreground color
-  button.hoverBackground: *YARU_ORG # Button background color when hovering
+  button.hoverBackground: *YARU_GRN # Button background color when hovering
   button.secondaryBackground: *YARU_ORG
   button.secondaryForeground:
 
@@ -125,7 +125,7 @@ colors:
 
   # Badge
   badge.foreground: *COLOR15 # Badge foreground color
-  badge.background: *YARU_PRP # Badge background color
+  badge.background: *YARU_GRN # Badge background color
 
   # Progress Bar
   progressBar.background: *PINK # Background color of the progress bar shown for long running operations
@@ -161,13 +161,13 @@ colors:
   sideBar.foreground: *TXT_FADED # Side Bar foreground color. The Side Bar is the container for views like Explorer and Search
   sideBar.border: # Side Bar border color on the side separating the editor
   sideBarTitle.foreground: *FG # Side Bar title foreground color
-  sideBarSectionHeader.background: !alpha [*BGLight, 30] # Side Bar section header background color
+  sideBarSectionHeader.background: !alpha [*BGLight, 50] # Side Bar section header background color
   sideBarSectionHeader.foreground: *TXT_FADED # Side Bar section header foreground color
   sideBarSectionHeader.border: *BGDarker # Side bar section header border color
 
   # Editor Group & Tabs
   editorGroup.background: # Background color of an editor group. The background color shows up when dragging editor groups around
-  editorGroup.border: *YARU_ORG # Color to separate multiple editor groups from each other
+  editorGroup.border: *BGLighter # Color to separate multiple editor groups from each other
   editorGroup.dropBackground: *TAB_DROP_BG # Background color when dragging editors around
   editorGroupHeader.noTabsBackground: # Background color of the editor group title header when Tabs are disabled
   editorGroupHeader.tabsBackground: *BGLight # Background color of the Tabs container
@@ -175,15 +175,15 @@ colors:
   tab.activeBackground: *BG # Active Tab background color
   tab.activeForeground: *FG # Active Tab foreground color in an active group
   tab.border: *BGDarker # Border to separate Tabs from each other
-  tab.activeBorderTop: *YARU_ORG # A border drawn to the top of the active tab
+  tab.activeBorderTop: *CYAN # A border drawn to the top of the active tab
   tab.activeBorder: # A border drawn to the bottom of the active tab
   tab.unfocusedActiveBorder: # A border drawn to the bottom of the active tab in an editor group that is not focused
   tab.inactiveBackground: *BGLight # Inactive Tab background color
-  tab.inactiveModifiedBorder: *YARU_PRP
+  tab.inactiveModifiedBorder: *YARU_ORG
   tab.inactiveForeground: *TXT_FADED # Inactive Tab foreground color in an active group
   tab.unfocusedActiveForeground: # Active tab foreground color in an inactive editor group
   tab.unfocusedInactiveForeground: # Inactive tab foreground color in an inactive editor group
-  tab.activeModifiedBorder: *YARU_ORG
+  tab.activeModifiedBorder: *CYAN
 
   # Editor Colors
   editor.foreground: *FG
@@ -206,7 +206,7 @@ colors:
   editor.hoverHighlightBackground: !alpha [*CYAN, 50] # Highlight below the word for which a hover is shown
 
   editor.lineHighlightBackground: *BGLighter # Background color for the highlight of line at the cursor position
-  editor.lineHighlightBorder: # Background color for the border around the line at the cursor position
+  editor.lineHighlightBorder: *BGLighter # Background color for the border around the line at the cursor position
 
   editorLink.activeForeground: *CYAN # Color of active links
   editor.rangeHighlightBackground: !alpha [*YARU_PRP, 15] # Background color of highlighted ranges, like by Quick Open and Find features
@@ -311,14 +311,14 @@ colors:
 
   # Panel Colors
   panel.background: *BG # Panel background color
-  panel.border: *BGDarker # Panel border color on the top separating to the editor
+  panel.border: *YARU_ORG # Panel border color on the top separating to the editor
   panelTitle.activeBorder: *YARU_ORG # Border color for the active panel title
   panelTitle.activeForeground: *FG # Title color for the active panel
   panelTitle.inactiveForeground: *TXT_FADED # Title color for the inactive panel
 
   # Status Bar Colors
   statusBar.background: *YARU_ORG # Standard Status Bar background color
-  statusBar.foreground: *FG # Status Bar foreground color
+  statusBar.foreground: *COLOR15 # Status Bar foreground color
   statusBar.debuggingBackground: # Status Bar background color when a program is being debugged
   statusBar.debuggingForeground: # Status Bar foreground color when a program is being debugged
   statusBar.noFolderBackground: *BGDarker # Status Bar foreground color when no folder is opened
@@ -352,11 +352,11 @@ colors:
 
   # Extensions
   extensionButton.prominentForeground: *FG # Extension view button foreground color (for example Install button)
-  extensionButton.prominentBackground: !alpha [*GREEN, 90] # Extension view button background color
-  extensionButton.prominentHoverBackground: !alpha [*GREEN, 60] # Extension view button background hover color
+  extensionButton.prominentBackground: *YARU_GRN # Extension view button background color
+  extensionButton.prominentHoverBackground: !alpha [*YARU_GRN, 90] # Extension view button background hover color
 
   # Quick Picker
-  pickerGroup.border: *YARU_ORG # Quick picker (Quick Open) color for grouping borders
+  pickerGroup.border: *UI_BTN # Quick picker (Quick Open) color for grouping borders
   pickerGroup.foreground: *CYAN # Quick picker (Quick Open) color for grouping labels
 
   # Debug

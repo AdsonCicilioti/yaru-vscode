@@ -23,48 +23,52 @@ const tinycolor = require('tinycolor2');
  */
 
 const withAlphaType = new Type('!alpha', {
-    kind: 'sequence',
-    construct: ([hexRGB, alpha]) => hexRGB + alpha,
-    represent: ([hexRGB, alpha]) => hexRGB + alpha,
+  kind: 'sequence',
+  construct: ([hexRGB, alpha]) => hexRGB + alpha,
+  represent: ([hexRGB, alpha]) => hexRGB + alpha,
 });
 
 const schema = Schema.create([withAlphaType]);
 
-/**
- * Soft variant transform.
- * @type {ThemeTransform}
- */
-const transformSoft = (yamlContent, yamlObj) => {
-    const brightColors = [...yamlObj.yaru.ansi, ...yamlObj.yaru.brightOther];
-    return load(
-        yamlContent.replace(/#[0-9A-F]{6}/g, (color) => {
-            if (brightColors.includes(color)) {
-                return tinycolor(color).desaturate(20).toHexString();
-            }
-            return color;
-        }),
-        { schema }
-    );
-};
-
 module.exports = async () => {
-    const yamlFile = await readFile(
-        join(__dirname, '..', 'src', 'yaru.yml'),
-        'utf-8'
-    );
+  const darkYml = await readFile(
+    join(__dirname, '..', 'src', 'yaru-dark.yml'),
+    'utf-8'
+  );
+  const grapeYml = await readFile(
+    join(__dirname, '..', 'src', 'yaru-dark grape.yml'),
+    'utf-8'
+  );
+  const pumpkinYml = await readFile(
+    join(__dirname, '..', 'src', 'yaru-dark-pumpkin.yml'),
+    'utf-8'
+  );
 
-    /** @type {Theme} */
-    const base = load(yamlFile, { schema });
+  /** @type {Theme} */
+  const dark = load(darkYml, { schema });
+  const darkGrape = load(grapeYml, { schema });
+  const darkPumpkin = load(pumpkinYml, { schema });
 
-    // Remove nulls and other falsey values from colors
-    for (const key of Object.keys(base.colors)) {
-        if (!base.colors[key]) {
-            delete base.colors[key];
-        }
+  // Remove nulls and other falsey values from colors
+  for (const key of Object.keys(dark.colors)) {
+    if (!dark.colors[key]) {
+      delete dark.colors[key];
     }
+  }
+  for (const key of Object.keys(darkGrape.colors)) {
+    if (!darkGrape.colors[key]) {
+      delete darkGrape.colors[key];
+    }
+  }
+  for (const key of Object.keys(darkPumpkin.colors)) {
+    if (!darkPumpkin.colors[key]) {
+      delete darkPumpkin.colors[key];
+    }
+  }
 
-    return {
-        base,
-        soft: transformSoft(yamlFile, base),
-    };
+  return {
+    dark,
+    darkGrape,
+    darkPumpkin,
+  };
 };

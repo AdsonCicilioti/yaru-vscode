@@ -7,6 +7,7 @@
 ### ROADMAP:
 
 - [x] Better syntax colors
+- [x] Dark color variants (flavors)
 - [ ] Light Themes
 
 ---
@@ -16,6 +17,14 @@
 #### Yaru Dark
 
 ![taru-vscode-theme-html](images/scrsht.png)
+
+#### Yaru Dark Grape
+
+![taru-vscode-theme-html](images/scrsht-dark-grape.png)
+
+#### Yaru Pumpkin
+
+![taru-vscode-theme-html](images/scrsht-dark-pumpkin.png)
 
 #### Yaru Light [ SOON ]
 

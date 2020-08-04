@@ -6,6 +6,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.3] - 2020-08-04
+
+### Change
+
+- Update default dark color - more neutral (...possible)
+
+### Added
+
+- Dark color flavors - Grape and Pumpkin
+
 ## [0.1.2] - 2020-08-03
 
 ### Change
